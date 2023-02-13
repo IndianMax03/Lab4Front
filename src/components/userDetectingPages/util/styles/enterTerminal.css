@@ -1,0 +1,15 @@
+#usernameHelperDiv {
+    position: relative;
+}
+
+#usernameHelperP {
+    position: absolute;
+}
+
+#passwordHelperDiv {
+    position: relative;
+}
+
+#passwordHelperP {
+    position: absolute;
+}

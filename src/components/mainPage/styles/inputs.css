@@ -1,0 +1,125 @@
+.form_radio_group {
+	display: inline-block;
+	overflow: hidden;
+}
+.form_radio_group-item {
+	font-size: small;
+	display: inline-block;
+    background: hsl(0, 0%, 96%);
+	float: left;    
+}
+.form_radio_group input[type=radio] {
+	display: none;
+}
+
+.form_radio_group label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 14px;
+	line-height: 32px;
+	border: 1px solid #999;
+	border-right: none;
+	user-select: none;
+}
+ 
+.form_radio_group .form_radio_group-item:first-child label {
+	border-radius: 6px 0 0 6px;
+}
+.form_radio_group .form_radio_group-item:last-child label {
+	border-radius: 0 6px 6px 0;
+	border-right: 1px solid #999;
+}
+ 
+/* Checked */
+.form_radio_group input[type=radio]:checked + label {
+	background: hsl(141, 59%, 34%);
+	color: hsl(0, 0%, 96%);
+}
+ 
+/* Hover */
+.form_radio_group label:hover {
+	color: #666;
+}
+
+.form_radio_group-item:hover {
+	background-color: hsl(141, 70%, 70%);
+}
+
+.yDiv {
+	max-width: 345px;
+}
+
+xField rField {
+	display: contents;
+}
+
+@media (max-width: 360px) {
+	.form_radio_group-item {
+		font-size: xx-small;
+	}
+	.form_radio_group label {
+		padding: 0px 12px;
+		line-height: 28px;
+	}
+	.yDiv {
+		max-width: 285px;
+	}
+}
+
+/*@media (max-width: 769px) {*/
+/*	.yField {*/
+/*		display: inline-table;*/
+/*	}*/
+/*}*/
+
+.yDiv {
+	display: inline-block;
+}
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:black;
+}
+
+input[type=submit] {
+	font-size: small;
+    padding:6px 20px; 
+    background:hsl(0, 0%, 96%); 
+    border:1 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+input[type=submit]:hover {
+	background:hsl(141, 70%, 70%); 
+}
+
+input[type=submit]:active {
+	background:hsl(141, 57%, 46%); 
+}
+
+#helpingDiv {
+	position: relative;
+}
+#yDangerHelper {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+.buttonsHelper {
+	position: relative;
+}
+
+#buttonsHelperP {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
